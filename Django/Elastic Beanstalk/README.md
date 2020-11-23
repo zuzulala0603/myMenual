@@ -17,8 +17,8 @@
 
 3. eb 환경 설정
 
-+   mkdir .ebextensions
-    폴더 안에 01_python.config파일 만들기
+    +   mkdir .ebextensions
+        폴더 안에 01_python.config파일 만들기
 
 
 ```
