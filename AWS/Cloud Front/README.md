@@ -1,21 +1,16 @@
 
--eb 앱 생성
 
 
--route53 도메인 등록
-
-
-
--ec2 로드밸랜서 등록
+#### load balancer
 
 1. 새로드 밸런서 선택 후 Http/Https 생성
 
-2.가용영역 4개 다 선택 후 다음
+2. 가용영역 4개 다 선택 후 다음
 
 3. example-target 생성 후 해당 환경을 항목에 추가
 
 
-cloudfront
+#### cloudfront
 
 1. Create Distribution => web 선택
 
