@@ -9,11 +9,11 @@
 
             "ios": {
                 "supportsTablet": true,
-                "bundleIdentifier": "com.zuzulala.uploadidolmale",
+                "bundleIdentifier": "com.zuzulala.appname",
                 "buildNumber": "1.0.0"
             },
             "android": {
-                "package": "com.zuzulala.uploadidolmale",
+                "package": "com.zuzulala.appname",
                 "versionCode": 1,
                 "config": {
                 "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713"
@@ -41,7 +41,7 @@
     render() {
         return (
         <View style={styles.container}>
-            <WebView source={{ uri: 'https://chuchugame.com/upload/idol-male/ko' }} style={{ marginTop: 20 }} />
+            <WebView source={{ uri: 'my uri' }} style={{ marginTop: 20 }} />
             <AdMobBanner
             style={styles.bottomBanner}
             bannerSize="smartBannerPortrait"
