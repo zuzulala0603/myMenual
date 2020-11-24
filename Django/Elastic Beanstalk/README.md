@@ -22,14 +22,15 @@
 
 
     ```
+
     option_settings:
-    aws:elasticbeanstalk:container:python:
-        WSGIPath: [[APP]].wsgi:application
-    aws:elasticbeanstalk:environment:proxy:staticfiles:
-        /static: static
+        aws:elasticbeanstalk:container:python:
+          WSGIPath: myDjango3.wsgi:application
+        aws:elasticbeanstalk:environment:proxy:staticfiles:
+            /static: static
     ```
 
-    + deacitvate 가상환경 종료
+    + deactivate 가상환경 종료
 
     + eb init -p python-3.7 [[APP NAME]] --region ap-northeast-2
     + eb create [[APP NAME ENV]]--elb-type application --region ap-northeast-2
