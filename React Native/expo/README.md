@@ -1,7 +1,7 @@
 
 #### expo setting
 
-    ```
+    
     expo init [projectname]
     expo install react-native-webview
     expo install expo-permissions
@@ -20,14 +20,14 @@
                 },
                 "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE"]
             },
-    ```
+    
 + splash  "backgroundColor": "#51A9AB"
 
 
 
 #### expo webview
 
-    ```
+    
     import * as React from 'react';
     import { WebView } from 'react-native-webview';
     import { StyleSheet, Text, View } from "react-native";
@@ -61,13 +61,13 @@
         backgroundColor: "#fff",
     }
     });
-    ```
+    
     
 
 #### expo command
 
-    ```
+    
     expo start
     expo build:android
     expo publish
-    ```
+    
