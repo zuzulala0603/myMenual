@@ -6,7 +6,10 @@
     + pip install django-hosts
 
 
+
 2. Settings.py 설정
+
+
 
     ```
     INSTALLED_APPS = [
@@ -15,16 +18,19 @@
     'django_hosts',
     
     '''
+    ]
 
 
 
     MIDDLEWARE = [
+    #SHOULD BE FIRST
     'django_hosts.middleware.HostsRequestMiddleware',
 
     '''
 
     '''
 
+    #SHOULD BE LAST
     'django_hosts.middleware.HostsResponseMiddleware',
     ]
 
