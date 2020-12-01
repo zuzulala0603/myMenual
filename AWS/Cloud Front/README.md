@@ -3,12 +3,15 @@
 
 #### load balancer
 
-1. 새로드 밸런서 선택 후 Http/Https 생성
+1. 새 로드 밸런서 선택 후 Http/Https 생성 (Application Load Balancer)
 
-2. 가용영역 4개 다 선택 후 다음
+2. 이름 입력과 가용영역  4개 선택 후 다음
 
-3. example-target 생성 후 해당 환경을 항목에 추가
+3. http 포트만 열고 나머디 다음 누름
 
+4. Elastic Beanstalk created security group used when no ELB security groups are specified during ELB creation 와 default 보안 그룹 선택
+
+5. app-target 생성 후 app-env를 항목에 추가
 
 #### cloudfront
 
@@ -18,7 +21,7 @@
 
 3. Viewr Protocol Policy 에서 Redirect 선택
 
-4. SSL Certificate에서 커스텀 선택하고 Request 버튼 누름
+4. Request or Import a Certificate with ACM 버튼 누름
 
 5. 도메인 이름에 www.example.com과 example.com을 입력
 
